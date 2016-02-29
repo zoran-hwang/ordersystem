@@ -1,0 +1,165 @@
+body{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}	
+.icono-cart{
+	width:22px;
+	height:0;
+	border-width:14px 6px 0 2px;
+	border-style:solid;
+	border-right-color:transparent;
+	border-left-color:transparent;
+	margin:9px 3px 11px 9px
+	}
+.icono-cart:before{
+	position:absolute;
+	width:4px;
+	height:4px;
+	border-radius:50%;
+	box-shadow:inset 0 0 0 32px,13px 0,-4px -20px 0 1px;
+	top:2px;
+	left:-3px
+	}
+
+#search{
+	width:1536px;
+	height:60px;
+	margin:15px auto;
+	/*background-color: rgb(235,235,235);*/
+	border:1px;
+}
+input[type=text]{
+	width: 450px;
+    height:40px;
+	text-indent: 10px;
+	margin:10px auto;
+	border:1px solid #d5d5d5;
+   	border-radius: 4px;
+}
+input[type=button]{
+	border:1px solid #d5d5d5;
+	border-radius: 4px;
+}
+span{
+	float: left;
+	line-height:60px; 
+	font-size: 40px;
+	font-style: yahei;
+	font-weight: 700;
+}
+#search_box{
+	float:right;
+	margin-right:300px;
+}
+#sub{
+	height:40px;
+	width:70px;
+	font-size:20px;
+}
+#top_img{
+	width:1536px;
+	background-image: url(../img/anhui.jpg);
+	height:250px;
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin:0 auto;
+	color:white;
+	font-size: 125px;
+	line-height: 250px;
+	box-sizing:border-box;
+	padding-left: 150px;	
+}
+#city_box{
+	width:1000px;
+	margin:20px auto;
+	overflow: hidden;
+}
+#city_hd{
+	color:#ff7200;
+	font-size:28px;
+	border-bottom:1px solid #e8e8e8;
+	margin-bottom:19px;
+	display:inline-block;
+}
+#city_bd{
+	font-size:20px;
+	border-bottom:1px solid #e8e8e8;
+	margin-bottom:19px;
+	display:inline-block;
+}
+#city_bd a{
+	color:#999;
+	margin: 0 40px;
+}
+#city_bd a:hover{
+	color:#ff7200;
+	text-decoration: underline;
+}
+#content{
+	width:1536px;
+    /*border:1px solid;*/
+    margin:0 auto;
+}
+#rank{
+	box-sizing:border-box;
+	width:185px;
+	float:left;
+    margin:0 50px;
+    border: 2px solid #c00;
+    border-radius: 4px;
+}
+.rank_list{
+	box-sizing:border-box;
+    width:100%;
+	float:left;
+	padding:10px 10px;
+}
+.rank_list img{
+	width:100%;
+}
+#rank_name{
+	font-size: 30px;
+	color:#c00;
+	text-align: center;
+}
+#main{
+	width:1248px;
+	float:left;
+	overflow:hidden;
+}
+#recommed{
+	font-size: 40px;
+	color:#c00;
+}
+#foods_box{
+	float:left;
+}
+.foods_list{
+	box-sizing:border-box;
+    width:33%;
+	float:left;
+	padding:10px 10px;
+}
+.foods_list img{
+	width:100%;
+	height:282px;
+}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0};
+.clearfloat{zoom:1;} 
+#map{
+	width:818px;
+	margin:20px auto;
+	border:1px solid;
+	position:relative;
+}
+#map a{
+	color:white;
+}
+
+

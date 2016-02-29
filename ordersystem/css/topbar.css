@@ -1,0 +1,25 @@
+#top_bar{
+	width:100%;
+	min-width: 720px;
+	background-color: #f2f2f2;
+	height:30px;
+	font-size: 18px;
+	/*line-height: 35px*/
+}
+#left_bar,#user_name,#user_out{
+	float:left;
+	padding:0 10px;
+}
+#left_bar,#right_bar{
+	margin:6px auto;
+}
+#left_bar a,#left_bar a:link,#left_bar a:visited,#right_bar a,#right_bar a:link,#right_bar a:visited{
+	color:black;
+}
+#left_bar a:hover,#right_bar a:hover{
+	color:#c00;
+}
+#right_bar,#hist,#shopcar,#loca{
+	float:right;
+	padding:0 10px;
+}
